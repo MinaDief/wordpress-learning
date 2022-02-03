@@ -1,4 +1,8 @@
-<h1>single php file running this page</h1>
+
+<?php
+get_header();
+?>
+<h1>single php file running this post</h1>
 
 <?php
 while(have_posts()){
@@ -8,4 +12,8 @@ while(have_posts()){
         <?php
 
 }
+
+get_footer();
+
 ?>
+

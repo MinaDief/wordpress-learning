@@ -1,3 +1,8 @@
+
+<?php
+get_header();
+?>
+
 <h1>Page php file running this page</h1>
     <?php
 while(have_posts()){
@@ -7,4 +12,7 @@ while(have_posts()){
         <?php
 
 }
+
+
+get_footer();
 ?>
